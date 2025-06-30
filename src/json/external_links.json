@@ -1,0 +1,60 @@
+{
+	"HueForge Wiki": [
+		{"Main Page" : "https://hueforge.wiki"},
+		{"Common Terms" : "https://hueforge.wiki/index.php/Common_Terms"},
+		{"Hotkeys" : "https://hueforge.wiki/index.php/HueForge_Hotkeys"},
+		{"Troubleshooting" : "https://hueforge.wiki/index.php/Troubleshooting"},
+        {"Summary of v0.9.0 UI Changes" : "https://hueforge.wiki/index.php/Office_Hours_v0.9.0_UI_Changes"},
+		{"FAQ" : "https://hueforge.wiki/index.php/FAQ"},
+		{"How To: Standard Mode" : "https://hueforge.wiki/index.php/Standard"},
+		{"How To: Color Pop" : "https://hueforge.wiki/index.php/Color_Pop"},
+		{"How To: Color Aware" : "https://hueforge.wiki/index.php/Color_Aware"},
+		{"How To: Color Match" : "https://hueforge.wiki/index.php/Color_Match"},
+		{"How To: Stained Glass" : "https://hueforge.wiki/index.php/Stained_Glass"}
+	],
+    "v0.9.x Crash Course": [
+        { "v0.9.0 Crash Course Playlist": "https://www.youtube.com/watch?v=cIrGPaCTSg8&list=PLgp_gHqrsnIrXSjR_p5cAsB38n_ZfSQiq" }
+    ],
+	"Tutorial Videos": [
+        { "v0.9.0 Crash Course Playlist": "https://www.youtube.com/watch?v=cIrGPaCTSg8&list=PLgp_gHqrsnIrXSjR_p5cAsB38n_ZfSQiq" },
+		{ "Sliders Demystified": "https://youtu.be/7wit2uBYn9M" },
+		{ "Color and Luminance": "https://youtu.be/Z-Lr7d5aKbc" },
+		{ "Making Thicker Prints": "https://youtu.be/yAXfeKaTIQ4" },
+		{ "HowTo: Color Pop": "https://youtu.be/ZBGEZ-dYwFI" },
+		{ "HowTo: Color Aware": "https://youtu.be/syWcvZ2pxIg" },
+		{ "HowTo: Color Shift for Color Aware": "https://youtu.be/UPuG1oZ5e5c"},
+		{ "New Features in v0.8.0": "https://youtu.be/UGeZdFy_oyk"},
+		{ "New Features in v0.7.0": "https://youtu.be/NwuBrEFTlIw" },
+		{ "Wrong Layer Count in Slicer?": "https://youtu.be/w8udIPVC80g" },
+		{ "HueForge U: Double White Method": "https://youtu.be/ZT6t_ySCjLI" },
+		{ "HueForge U: Brightness Compensation": "https://youtu.be/65BTtdxfQag" },
+		{ "Quick QR Codes (and Logos)": "https://youtu.be/eooifupKuO4" },
+		{ "Filament Painting STLs": "https://youtu.be/ZDtAWbftOzI" },
+        { "Hybrid HueForge Prints" : "https://youtu.be/7nqbgV0Zz3s?si=ffMuUeyA3CGnx5od"}
+	],
+	"Beginner Videos" : [
+		{ "Brand new to HueForge? Start here!" :"https://youtu.be/S_W03WNlIjc?si=6zV7bgCnaU4Sunkt"},
+		{ "Slicing your first HueForge" : "https://youtu.be/3-Jkx9F7eKs?si=9JdxK5GI57Hem57R"},
+		{ "Color Match vs Color Aware" : "https://youtu.be/DBVQo8f5kfs?si=UF_tPQx247cOQIOr"},
+		{ "Color Match in HueForge" : "https://youtu.be/F18UDecuFX0?si=C_ILzwOsfTQH01x6"},
+		{ "Importing your Filament Library" : "https://youtu.be/0Bbfnf6qyJc"},
+        { "Using More than 4 Colors in 1 AMS" : "https://youtu.be/DeE8ycngC6I?si=ymfGSn2gDZpVkmvl"},
+        { "What Filaments Should I get?" : "https://youtu.be/kiYygVHnAZQ?si=cDuve_aNOQpJ7G-Z"},
+        { "Finding TD with the Seashell Test" : "https://youtu.be/9rpluWd9pH8?si=eQKqeJAjNf92JbOl"}
+	],
+	"Work Along Videos" : [
+		{ "Standard and Color Pop: Cyber Samurai": "https://youtu.be/iBPcwfQ7oJ0?si=yrZiVD167tVd_Vzz"},
+		{ "Color Match: Red and Blue Ball": "https://youtu.be/lVvv9MbTWAc"},
+		{ "Color Match: Red, Green, and Blue Ball": "https://youtu.be/-D_ogqUKdgQ"},
+		{ "Color Match: Colorful Frog" : "https://youtu.be/Fp6hLbLsxZY"}
+	],
+	"Affiliates": [
+		{ "Polymaker HueForge Packs": "https://us.polymaker.com/products/hueforge-packs?aff=443" },
+		{ "SUNLU HueForge Packs": "https://www.sunlu.com/products/hueforge-painting-combo" },
+		{ "IIID Max Filament": "https://iiidmax.com/?ref=CWqX-FLMxzkq-y" },
+		{ "Bambu Lab": "https://shareasale.com/r.cfm?b=2282157&u=3757471&m=138211&urllink=&afftrack=" },
+		{ "Numakers Filament\nCoupon: HueForge10": "https://numakers.com/?ref=tq87fwjw" },
+		{ "ProtoPasta": "https://www.proto-pasta.com?aff=150" },
+		{ "Prusament" : "http://www.prusa3d.com/?_gl=1*1edaxqs*_gcl_au*MTI3ODg2NzAzMS4xNzI1OTgyMDc3*_ga*ODc2MjIxMTI4LjE3MjU5ODIwNzc.*_ga_3HK7B7RT5V*MTczMTk2MTQ3My4xNi4xLjE3MzE5NjE0OTIuNDEuMC4w#a_aid=HueForge"}
+	]
+}
