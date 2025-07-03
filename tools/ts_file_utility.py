@@ -1535,3 +1535,9 @@ if __name__ == "__main__":
             else:
                 print("Update failed.")
                 sys.exit(1)
+        else:
+            if update_ts_file(source_file, target_file, target_language):
+                print("Update completed successfully!")
+            else:
+                print("Update failed.")
+                sys.exit(1)
