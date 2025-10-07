@@ -548,7 +548,7 @@ Double-Click to Edit/Lock</source>
     <message>
         <location filename="../FilamentUpdateDialog.cpp" line="59"/>
         <source>Apply Correction to TD-1</source>
-        <translation type="unfinished">TD-1に修正を適用します</translation>
+        <translation type="unfinished">TD-1 に補正を適用</translation>
     </message>
     <message>
         <location filename="../FilamentUpdateDialog.cpp" line="63"/>
@@ -731,7 +731,9 @@ Press D to Disable Layer for Color Match</source>
         <source>Reset sliders will be set to white and 0 height and enabled
 Do you want to reset only Zero height sliders
                       or both Zero height and Disabled Sliders?</source>
-        <translation type="unfinished">リセットスライダーはホワイトと0の高さ0に設定され、newline_markerが有効になりますnewline_markerのみゼロの高さのスライダーまたはゼロの高さと無効なスライダーの両方をリセットする必要がありますか？</translation>
+        <translation type="unfinished">リセット対象のスライダーは、色が白、高さが 0、かつ有効状態にリセットされます。
+「高さ0のスライダーのみリセット」しますか？
+それとも「高さ0と無効状態のスライダー両方をリセット」しますか？</translation>
     </message>
     <message>
         <location filename="../LayerSliders.cpp" line="912"/>
@@ -951,7 +953,9 @@ Do you want to reset only Zero height sliders
  made with the earliest release of the application which reversed
  the luminace values of red and blue.
   New models should not require or use this setting. </source>
-        <translation type="unfinished">newline_markerが赤と青のLuminace値を逆転させたアプリケーションの最も早いリリースで作成されたNewline_markerをロードする際の後方互換のために提供されます。 newline_marker新しいモデルは、この設定を要求したり使用したりしないでください。 </translation>
+        <translation type="unfinished">この設定は、アプリケーションの最初期リリースで作成されたモデルの読み込み時に、
+赤と青の輝度値が逆になっていた問題との互換性維持のために用意されています。
+新しいモデルでは、この設定を使う必要はありませんし、使用しないでください。</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="261"/>
@@ -2846,7 +2850,7 @@ Distance</source>
     <message>
         <location filename="../mainwindow.cpp" line="2183"/>
         <source>Recover TD-1</source>
-        <translation type="unfinished">TD-1を回復します</translation>
+        <translation type="unfinished">TD-1のリカバリー</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2211"/>
@@ -3032,32 +3036,32 @@ HueForge does not modify the STL</source>
     <message>
         <location filename="../mainwindow.cpp" line="2974"/>
         <source>This does not appear to be the root HueForge folder as no Filaments folder is below it.</source>
-        <translation type="unfinished">これは、Filamentsフォルダーがその下にないため、Root Hueforgeフォルダーのようには見えません。</translation>
+        <translation type="unfinished"> このフォルダーはHueForgeのルートフォルダーではないようです。配下に「Filaments」フォルダーが見つかりません。</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="2998"/>
         <source>There is no personal_library.json file in </source>
-        <translation type="unfinished">personal_library.jsonファイルはありません </translation>
+        <translation type="unfinished">指定された場所に personal_library.json ファイルが存在しません：</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="3011"/>
         <source>Unable to backup personal_library.json in folder </source>
-        <translation type="unfinished">フォルダーにpersonal_library.jsonをバックアップできません </translation>
+        <translation type="unfinished">指定されたフォルダーに personal_library.json をバックアップできません：</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="3021"/>
         <source>Error copying </source>
-        <translation type="unfinished">エラーコピー </translation>
+        <translation type="unfinished">コピー中のエラー： </translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="3021"/>
         <source> into </source>
-        <translation type="unfinished"> の中へ </translation>
+        <translation type="unfinished"> に </translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="3029"/>
         <source>Library Imported successfully!  You may have to restart HueForge to see all changes.</source>
-        <translation type="unfinished">ライブラリは正常にインポートされました！  すべての変更を確認するには、 Hueforge を再起動する必要がある場合があります。</translation>
+        <translation type="unfinished">ライブラリは正常にインポートされました！すべての変更を確認するには、HueForgeを再起動する必要がある場合があります。</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="3049"/>
@@ -3660,7 +3664,6 @@ please find the folder with your HueForge.exe file in it</source>
         <source>Merge: Dropped Core Fragment will interlace with existing sliders</source>
         <translation type="unfinished">マージ：ドロップされたコアフラグメントは、既存のスライダーと交互に配置されます</translation>
     </message>
-    </message>
     <message>
         <location filename="../mainwindow.cpp" line="7222"/>
         <source>[TD-1 Disconnected]</source>
@@ -3976,8 +3979,8 @@ Please make sure they are properly copied</source>
 Please reconnect your TD-1 and try again.
 
 If it is connected, try a different USB cable.</source>
-        <translation type="unfinished">コンピューターに適切なドライブは見つかりません。  TD1は接続されていますか？
- TD1を再接続して、再試行してください。
+        <translation type="unfinished">コンピューターに適切なドライブは見つかりません。TD-1は接続されていますか？
+TD-1を再接続して、再試行してください。
 
 すでに接続されている場合は、別のUSBケーブルを試してください。</translation>
     </message>
@@ -3996,7 +3999,7 @@ Do you want to try again?</source>
     <message>
         <location filename="../mainwindow.cpp" line="8202"/>
         <source>File copied to TD-1, please unplug, wait 10 seconds and plug it back in</source>
-        <translation type="unfinished">TD1にファイルをコピーしました。ケーブルを抜き、10秒待ってから再接続してください</translation>
+        <translation type="unfinished">TD-1にファイルをコピーしました。ケーブルを抜き、10秒待ってから再接続してください</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="8235"/>
@@ -4009,7 +4012,7 @@ Do you want to try again?</source>
 If this is a TD-1 you wish to reflash, choose Yes.
 This will erase everything on this Device.  Are you sure you want to proceed?</source>
         <translation type="unfinished">ブートローダーモードのCircuitPythonデバイスが検出されました：
-これがTD1である場合は、「はい」を選択します。
+これがTD-1である場合は、「はい」を選択します。
 続けるとこのデバイスのすべてが消去されます。先に進みますか？</translation>
     </message>
     <message>
@@ -4063,32 +4066,32 @@ Do you want to reload these changes?
     <message>
         <location filename="../mainwindow.cpp" line="9344"/>
         <source>Auto-Reload All Image Updates</source>
-        <translation type="unfinished">すべての画像の更新を自動表示します</translation>
+        <translation type="unfinished">すべての画像更新を自動リロード</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="9345"/>
         <source>Auto-Reload Updates to this Image</source>
-        <translation type="unfinished">この画像を自動解除します</translation>
+        <translation type="unfinished">この画像の更新を自動リロード</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="9346"/>
         <source>Ignore All Image Updates</source>
-        <translation type="unfinished">すべての画像の更新を無視します</translation>
+        <translation type="unfinished">すべての画像更新を無視</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="9347"/>
         <source>Ignore Updates to this Image</source>
-        <translation type="unfinished">この画像の更新を無視します</translation>
+        <translation type="unfinished">この画像の更新を無視</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="9348"/>
         <source>Load Updates</source>
-        <translation type="unfinished">更新を読み込みます</translation>
+        <translation type="unfinished">更新を読み込む</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="9349"/>
         <source>Ignore Update</source>
-        <translation type="unfinished">更新を無視します</translation>
+        <translation type="unfinished">更新を無視</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="9350"/>
@@ -4172,7 +4175,7 @@ Do you want to reload these changes?
 !!!!  It appears you have mixed filament types.  Be certain this is what you want.  !!!!!
 </source>
         <translation type="unfinished">
-!!!!  フィラメントタイプが混在しているようです。  これはあなたが意図したとおりであることを確認してください。  !!!!!
+!!!!  フィラメントタイプが混在しているようです。これはあなたが意図したとおりであることを確認してください。  !!!!!
 </translation>
     </message>
     <message>
@@ -4181,7 +4184,7 @@ Do you want to reload these changes?
 !!!!  It appears you have Image Colors as Filaments.  It will not be possible to print this.  !!!!!
 </source>
         <translation type="unfinished">
-!!!!  フィラメントとして画像の色指定されているようです。  そのまま印刷することはできません。  !!!!!
+!!!!  フィラメントとして画像の色指定されているようです。そのまま印刷することはできません。  !!!!!
 </translation>
     </message>
     <message>
@@ -4203,7 +4206,7 @@ Swap Instructions:
 This slider is set higher than the mesh depth.  It is not affecting your final mesh.  Consider removing it.
 </source>
         <translation type="unfinished">
-このスライダーは、メッシュの深さよりも高く設定されています。最終メッシュには影響しません。  削除することを検討してください。
+このスライダーは、メッシュの深さよりも高く設定されています。最終メッシュには影響しません。削除することを検討してください。
 </translation>
     </message>
     <message>
@@ -4271,47 +4274,47 @@ Border Only Colors from here until the end.
     </message>
     <message>
         <source>Blend Depth</source>
-        <translation>深さをブレンドします</translation>
+        <translation>ブレンド深度</translation>
     </message>
     <message>
         <source>Manage Translations</source>
-        <translation>翻訳を管理します</translation>
+        <translation>翻訳を管理</translation>
     </message>
     <message>
         <source>Request License</source>
-        <translation>リクエストライセンス</translation>
+        <translation>ライセンスのリクエスト</translation>
     </message>
     <message>
         <source>Apply License</source>
-        <translation>ライセンスを適用します</translation>
+        <translation>ライセンスを適用</translation>
     </message>
     <message>
         <source>Backup License</source>
-        <translation>バックアップライセンス</translation>
+        <translation>ライセンスのバックアップ</translation>
     </message>
     <message>
         <source>Auto Launch TD1 Sim</source>
-        <translation>TD1 SIMを自動発射します</translation>
+        <translation>TD-1（TD1s） SIMを自動起動</translation>
     </message>
     <message>
         <source>Launch TD1 Sim</source>
-        <translation>TD1 SIMを起動します</translation>
+        <translation>TD-1（TD1s） SIMを起動</translation>
     </message>
     <message>
         <source>TD1 Settings</source>
-        <translation>TD1設定</translation>
+        <translation>TD-1（TD1s）設定</translation>
     </message>
     <message>
         <source>Get RGB Factors</source>
-        <translation>RGB要因を取得します</translation>
+        <translation>RGB係数を取得</translation>
     </message>
     <message>
         <source>Calibrate Lux Sensor</source>
-        <translation>Luxセンサーを較正します</translation>
+        <translation>Luxセンサーを校正</translation>
     </message>
     <message>
         <source>Calibrate RGB Colors</source>
-        <translation>RGBの色を調整します</translation>
+        <translation>RGBの色を校正</translation>
     </message>
     <message>
         <source>RGB Adjustments Reset</source>
@@ -4319,29 +4322,29 @@ Border Only Colors from here until the end.
     </message>
     <message>
         <source>Get Error Log</source>
-        <translation>エラーログを取得します</translation>
+        <translation>エラーログを取得</translation>
     </message>
     <message>
         <source>Get Version</source>
-        <translation>バージョンを取得します</translation>
+        <translation>バージョンを取得</translation>
     </message>
     <message>
         <source>Update Firmware</source>
-        <translation>ファームウェアを更新します</translation>
+        <translation>ファームウェアを更新</translation>
     </message>
     <message>
         <source>Update Color for
  Existing Filaments</source>
         <translation>
-の既存のフィラメントの色を更新します</translation>
+既存のフィラメントの色を更新</translation>
     </message>
     <message>
         <source>Attach Color Palette</source>
-        <translation>カラーパレットを取り付けます</translation>
+        <translation>カラーパレットを取り付け</translation>
     </message>
     <message>
         <source>Attach to Left</source>
-        <translation>左に添付します</translation>
+        <translation>左に添付</translation>
     </message>
     <message>
         <source>Separate Palette</source>
@@ -4349,11 +4352,11 @@ Border Only Colors from here until the end.
     </message>
     <message>
         <source>Synchronize Preview/Image Controls</source>
-        <translation>プレビュー/画像コントロールを同期します</translation>
+        <translation>プレビュー/画像コントロールを同期</translation>
     </message>
     <message>
         <source>No COM Port Found</source>
-        <translation>comポートは見つかりません</translation>
+        <translation>COMポートが見つかりません</translation>
     </message>
     <message>
         <source>New Project</source>
@@ -4369,7 +4372,7 @@ Border Only Colors from here until the end.
     </message>
     <message>
         <source>Step-by-Step Undo</source>
-        <translation>段階的に元に戻します</translation>
+        <translation>段階的に元に戻す</translation>
     </message>
     <message>
         <source>Step-by-Step Redo</source>
@@ -4385,7 +4388,7 @@ Border Only Colors from here until the end.
     </message>
     <message>
         <source>Recover TD1</source>
-        <translation>TD1を回復します</translation>
+        <translation>TD1のリカバリー</translation>
     </message>
     <message>
         <source>Import Translation</source>
@@ -4421,11 +4424,11 @@ Border Only Colors from here until the end.
     </message>
     <message>
         <source>Buy a TD1s</source>
-        <translation>TD1を購入します</translation>
+        <translation>TD1sを購入します</translation>
     </message>
     <message>
         <source>Affiliate Link to TD1s Order page on Biqu.Equipment</source>
-        <translation>biquipmentのTD1S注文ページへのリンク（アフィリエイト）</translation>
+        <translation>Biqu.EquipmentのTD1s注文ページへのリンク（アフィリエイト）</translation>
     </message>
     <message>
         <source>HueForge for Windows now uses a central Configuration Location
@@ -4453,23 +4456,23 @@ HueForge が過去のバージョンを検出できた場合は、リストか�
     </message>
     <message>
         <source>[TD1 Disconnected]</source>
-        <translation>[TD1切断]</translation>
+        <translation>[TD-1 未接続]</translation>
     </message>
     <message>
         <source>Unlicensed TD1 Connected</source>
-        <translation>無許可のTD1接続</translation>
+        <translation>未ライセンスのTD-1の接続</translation>
     </message>
     <message>
         <source>An unlicensed TD1 has been connected, but the license file has been cached
 along with your Settings, Pins, and RGB Calibrations.
 should HueForge apply the license and config files? </source>
-        <translation>ライセンスが無効なTD1が接続されていますが、ライセンスファイルは設定、ピン、およびRGBキャリブレーションとともに
-キャッシュされています。
-HueForgeでライセンスと設定ファイルを適用しますか？</translation>
+        <translation>未ライセンスの TD-1が接続されましたが、ライセンスファイルは
+設定・ピン・RGB キャリブレーションとともにキャッシュされています。
+HueForge でライセンスおよび設定ファイルを適用しますか？</translation>
     </message>
     <message>
         <source>[TD1 Connected] License Status: </source>
-        <translation type="unfinished">[TD1接続済]ライセンスステータス： </translation>
+        <translation type="unfinished">[TD-1 接続済]ライセンスステータス： </translation>
     </message>
     <message>
         <source>Where do you want to save your boot_out.txt?</source>
@@ -4477,7 +4480,7 @@ HueForgeでライセンスと設定ファイルを適用しますか？</transla
     </message>
     <message>
         <source>~/Downloads</source>
-        <translation>〜/Downloads</translation>
+        <translation>~/Downloads</translation>
     </message>
     <message>
         <source>The TD1 Indicates it sent the errors.txt file, but HueForge is unable to open the file.</source>
@@ -4500,33 +4503,33 @@ will stop future reports.</source>
     </message>
     <message>
         <source>[TD1 File Sent] </source>
-        <translation type="unfinished">[TD1ファイル送信済] </translation>
+        <translation type="unfinished">[TD-1 ファイル送信済] </translation>
     </message>
     <message>
         <source>Please remove any filament in your TD1 Before continuing.</source>
-        <translation>継続する前に、TD1のフィラメントを削除してください。</translation>
+        <translation>継続する前に、TD-1のフィラメントを取り除いてしてください。</translation>
     </message>
     <message>
         <source>Make sure no filament is in the TD1.  When completed and restarted, run Calibrate RGB Color.</source>
-        <translation>TD1にフィラメントがないことを確認してください。  完了して再起動したら、RGB色を校正します。</translation>
+        <translation>TD-1にフィラメントがないことを確認してください。 完了して再起動したら、RGB色を校正します。</translation>
     </message>
     <message>
         <source>TD1 Firmware Update Available</source>
-        <translation>TD1ファームウェアアップデートが利用可能です</translation>
+        <translation>TD-1のファームウェアアップデートが利用可能です</translation>
     </message>
     <message>
         <source>There are updates available for your TD1.
 Do you want to apply them?</source>
-        <translation>TD1で利用可能な更新があります。
+        <translation>TD-1で利用可能な更新があります。
 それらを適用しますか？</translation>
     </message>
     <message>
         <source>TD1 - Provide Firmware Update Zip</source>
-        <translation>TD1-ファームウェアアップデートzipを提供します</translation>
+        <translation>TD-1のファームウェアをZIPで更新</translation>
     </message>
     <message>
         <source>Please tell HueForge where your update.zip file is for the TD1</source>
-        <translation>Hueforgeにupdate.zipファイルがTD1用にある場所を教えてください</translation>
+        <translation>TD1 用の update.zip ファイルの場所を HueForge に指定してください</translation>
     </message>
     <message>
         <source> for TD1 Firmware update.</source>
@@ -4636,17 +4639,17 @@ This will erase everything on this Device.  Are you sure you want to proceed?</s
     <message>
         <location filename="../ManageLayoutsDialog.hpp" line="41"/>
         <source>Delete Selected</source>
-        <translation type="unfinished">選択した削除</translation>
+        <translation type="unfinished">選択項目を削除</translation>
     </message>
     <message>
         <location filename="../ManageLayoutsDialog.hpp" line="43"/>
         <source>Close</source>
-        <translation type="unfinished">近い</translation>
+        <translation type="unfinished">閉じる</translation>
     </message>
     <message>
         <location filename="../ManageLayoutsDialog.hpp" line="97"/>
         <source>Confirm Deletion</source>
-        <translation type="unfinished">削除を確認します</translation>
+        <translation type="unfinished">削除の確認</translation>
     </message>
     <message numerus="yes">
         <location filename="../ManageLayoutsDialog.hpp" line="98"/>
@@ -4847,22 +4850,22 @@ Filament</source>
     <message>
         <location filename="../TD1SettingsDialog.cpp" line="17"/>
         <source> -&gt; Continuous TD</source>
-        <translation type="unfinished"> - &gt;連続TD</translation>
+        <translation type="unfinished"> - &gt; 連続してTDを検出</translation>
     </message>
     <message>
         <location filename="../TD1SettingsDialog.cpp" line="18"/>
         <source> -&gt; Continuous Color</source>
-        <translation type="unfinished"> - &gt;連続色</translation>
+        <translation type="unfinished"> - &gt;連続して色を検出</translation>
     </message>
     <message>
         <location filename="../TD1SettingsDialog.cpp" line="19"/>
         <source> -&gt; Disable Color Detection</source>
-        <translation type="unfinished"> - &gt;色の検出を無効にします</translation>
+        <translation type="unfinished"> - &gt;色検出を無効化</translation>
     </message>
     <message>
         <location filename="../TD1SettingsDialog.cpp" line="20"/>
         <source> -&gt; Display Color as R,G,B</source>
-        <translation type="unfinished"> - &gt; R、G、Bとして色を表示します</translation>
+        <translation type="unfinished"> - &gt; R、G、Bとして色を表示</translation>
     </message>
     <message>
         <location filename="../TD1SettingsDialog.cpp" line="21"/>
@@ -5084,11 +5087,11 @@ Tags: </source>
     </message>
     <message>
         <source>Remove Selected</source>
-        <translation>選択した削除します</translation>
+        <translation>選択項目を削除</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation>近い</translation>
+        <translation>閉じる</translation>
     </message>
     <message>
         <source>No user translation files found</source>
